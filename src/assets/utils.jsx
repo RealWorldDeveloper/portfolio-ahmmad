@@ -17,7 +17,7 @@ export const handleIcon = (items) => {
     return <FcSmartphoneTablet size={40} style={{color:'white'}}/>
   }
   if(items === 'REST API Development'){
-    return <img src="./public/api.png" style={{width:'70px'}}/>
+    return <img src="./api.png" style={{width:'70px'}}/>
   }
   if(items === 'Version Control & GitHub Management'){
     return <FaGithub size={40} style={{color:'white'}}/>
@@ -29,16 +29,13 @@ export const handleIcon = (items) => {
     return <BsBugFill size={40} style={{color: 'red'}}/>
   }
   if (items === "MERN Developemnt") {
-    return <img src="./public/mern_icon.png" style={{width:'70px'}}/>
+    return <img src="./mern_icon.png" style={{width:'70px'}}/>
   }
   if (items === "Custom Website Design") {
     return <FcGlobe size={40} style={{color: 'transparent'}}/>
   }
-  if (items === "Landing Page Development") {
-    return <img src="./public/landing.jpg" style={{width:'60px'}}/>
-  }
   if (items === "UI/UX Improvements") {
-    return <img src="./public/ux.png" style={{width:'60px'}}/>
+    return <img src="./ux.png" style={{width:'60px'}}/>
   }
   if (items === "Testing for Perfection") {
     return <FcServices size={40} style={{color: 'transparent'}}/>
