@@ -11,7 +11,7 @@ function Qualification() {
             <span className="position-relative text-dark p-3 ">
               Tech Certification
               <img
-                src="/public/crown.png"
+                src="./public/crown.png"
                 className=" position-absolute top-0 start-0 translate-start"
                 width="50"
                 height="45"
@@ -23,7 +23,7 @@ function Qualification() {
         <div className="certificate d-flex justify-content-between align-items-center p-3">
           <div className="image border border-dark-subtle rounded-2 mx-4">
             <img
-              src="/public/certificate.png"
+              src="./public/certificate.png"
               alt=""
               className="border-dark-subtle rounded-2 "
             />
