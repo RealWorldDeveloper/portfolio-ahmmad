@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.splash{
+  font-size: 4rem;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+}
+:root{
+  --bg--color: #030408;
+  --main--color: #FF004F;
+}
+.left{
+  width: 40rem;
+}
+.left p{
+  font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align:justify;
+}
+
+.image-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+  position: relative;
+  background-color: #030408;
+  overflow: hidden;
+  animation: shake 3s infinite;
+}
+.image-item{
+  position: relative;
+  width: 98%;
+  height: 98%;
+  background: var(--bg--color);
+  border-radius: 50%;
+  border: .01rem solid var(--bg--color);
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: rgba(175, 37, 37, 0.226) 0px 54px 55px, rgba(123, 36, 36, 0.12) 0px -12px 30px, rgba(183, 27, 43, 0.12) 0px 4px 6px, rgba(184, 16, 52, 0.17) 0px 12px 13px, rgba(233, 73, 73, 0.09) 0px -3px 5px; 
+}
+.image-item img{
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 85%;
+  object-fit: cover;
+  mix-blend-mode: lighten;
+}
+.image-box::before,
+.image-box::after{
+  content: '';
+  position: absolute;
+  width: 50rem;
+  height: 50rem;
+  background: conic-gradient(transparent, transparent, transparent, var(--main--color));
+  transform: rotate(0deg);
+  animation: rotate-border 10s linear infinite
+}
+.image-box::after{
+  animation-delay: -5s;
+}
+@keyframes rotate-border{
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes shake{
+  0%{transform: translate(0, 0px);}
+  50%{transform: translate(0, 20px);}
+  100%{transform: translate(0, -0px);}
+}
+
+
+@media screen and (max-width:750px) {
+  .splash{
+    font-size: 2rem;
+  }
+.about-container{
+  flex-direction: column;
+}
+.left{
+  width: 20rem;
+  margin-top: 1.2rem;
+}
+.left p{
+  font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+.image-box{
+  width: 15rem;
+  height: 15rem;
+}
+}

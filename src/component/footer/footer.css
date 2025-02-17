@@ -1,0 +1,81 @@
+.footer {
+  /* background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%); */
+ position: relative;
+} 
+.footerText{
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+
+}
+
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 0.2;
+}
+
+ .container-contact{
+    display: flex;
+    flex-direction: column;
+  }
+  #contact-text{
+  width: 100%;
+  color: #FF004F;
+  }
+  
+   .row-contact{
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .right-contact{
+    width: 60%;
+    font-family: "Montserrat", serif;
+  font-weight: 400;
+  }
+  #exampleFormControlInput1, #exampleFormControlTextarea1{
+    background-color:rgb(17,17,17);
+    border: none;
+    position: relative;
+    z-index: 1;
+  }
+  #card-contact{
+    background-color: rgb(0, 0, 0);
+  }
+  .contact-title{
+    font-size: 50px;
+    color: whitesmoke;
+  }
+  .fa-solid{
+    color: #FF004F;
+  }
+  @media screen and (max-width:650px) {
+     .row-contact{
+      flex-direction: column;
+    }
+ .card-body h2{
+  font-size: 1.7rem;
+ }
+
+  }
+   input{
+    color: #ffffff!important;
+  }
+  input::-webkit-input-placeholder {
+    color: #ffffff !important;
+    font-size: 15px;
+  }
+  #exampleFormControlTextarea1{
+    color: #ffffff !important;
+  }
+
+ button[type="submit"] {
+  position: relative;
+  z-index: 1;
+} 
+.icons{
+  text-align: end;
+  font-size: 25px;
+}

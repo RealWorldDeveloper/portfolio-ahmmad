@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.container-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.projectText{
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  padding: 2rem;
+}
+.container-project h1 {
+  text-align: start;
+  width: 100%;
+  color: #ff004f;
+}
+.project-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+.project-image img {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+#card-project {
+  background-color: #161616;
+  color: aliceblue;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  transition: 0.5s;
+  border-radius: 0.8rem;
+}
+#card-project:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.5s;
+  background-color: #151515;
+}
+.card-text-container-image {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.card-text-container-image img {
+  width: 100%;
+  height: 100%;
+}
+.card-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-text {
+  height: 80px;
+}
+.text {
+  border: none;
+}
+
+@media screen and (max-width:750px) {
+  .svgContainer{
+    margin-top: -50px !important;
+  }
+svg{
+  margin-bottom: -1px;
+}
+}

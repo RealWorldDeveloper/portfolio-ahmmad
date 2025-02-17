@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100&display=swap');
+.hero{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 5rem;
+}
+.hero-ahmmad{
+    color: #FF004F;
+}
+.hero-title{
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
+}
+@media screen and (max-width:650px) {
+.hero{
+    font-size: 1.4rem}
+.hero-title{
+    font-size: 1rem !important;
+}
+.btn{
+    font-size: 0.7rem !important;
+    padding: 0px 10px;
+}
+  }

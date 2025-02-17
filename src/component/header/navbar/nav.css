@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+.nav-list a{
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+@media screen and (max-width:650px) {
+    .logo{
+        width: 20%;
+    }
+    
+  }

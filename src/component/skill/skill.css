@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+#doughnut,#doughnut2,#doughnut3,#doughnut4,#doughnut5 {
+    position: absolute;
+  }
+  #skill1,#skill2,#skill3,#skill4,#skill5{
+    position: relative;
+  }
+  .card{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: #FAF9F6;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+  }
+  @media screen and (max-width:750px) {
+    .skillImage{
+      width: 40px;
+      height: 40px;
+    }
+  }
