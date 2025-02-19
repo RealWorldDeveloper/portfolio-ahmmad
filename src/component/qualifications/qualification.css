@@ -37,19 +37,21 @@
 @media screen and (max-width:750px) {
 .splash{
   font-size: 1.4rem;
+  margin-top: 1rem;
 }
 }
 
 @media (max-width: 768px) {
   .qualification{
     width: 100%;
-    background-size: contain;
+    background-size: contain;;
+
   }
 .certificate{
   flex-direction: column;
 }
 .certificate-title{
-  margin-top: 10px;
+
 }
 .certificate-title h3 {
   font-size: 18px;

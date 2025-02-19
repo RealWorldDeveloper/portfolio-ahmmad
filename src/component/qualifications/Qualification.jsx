@@ -28,10 +28,10 @@ function Qualification() {
               className="border-dark-subtle rounded-2 "
             />
           </div>
-          <div className="certificate-title">
+          <div className="certificate-title py-1">
             <h3 className="text-danger">Software Development Bootcamp</h3>
-            <h5>Year: Oct 2024</h5>
-            <h6 className="py-4">
+            <h5 className="py-1">Year: Oct 2024</h5>
+            <h6>
               Tech: <FaHtml5 className="i" style={{ color: "red", fontSize:'30px' }} />{" "}
               <FaCss3Alt className="i" style={{ color: "blue", fontSize:'30px' }} />{" "}
               <IoLogoJavascript className="i"  style={{ color: "#ffc00a",fontSize:'30px'  }} />{" "}
