@@ -24,7 +24,7 @@ function About() {
           <div className="right ">
             <div className="image-box">
               <div className="image-item">
-                <img src="./profile.png" alt="" />
+                <img src="./profilePic.png" alt="" />
               </div>
             </div>
           </div>

@@ -35,8 +35,8 @@
 }
 .image-item{
   position: relative;
-  width: 98%;
-  height: 98%;
+  width: 99%;
+  height: 99%;
   background: var(--bg--color);
   border-radius: 50%;
   border: .01rem solid var(--bg--color);
@@ -50,7 +50,7 @@
   position: absolute;
   top: 0;
   display: block;
-  width: 85%;
+  width: 80%;
   object-fit: cover;
   mix-blend-mode: lighten;
 }
